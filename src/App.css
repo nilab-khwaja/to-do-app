@@ -1,0 +1,114 @@
+
+body {
+  background: url('img/bg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: lightgray;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: blue;
+}
+
+.navbar a:hover {
+  color: #555;
+}
+
+.home {
+  width: 450px;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.todo-wrapper {
+  padding: 40px;
+  width: 400px;
+  height: auto;
+  background-color: lightcyan;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.todo input[type="checkbox"] {
+  width: 20px;
+}
+
+.todo p {
+  flex-grow: 1;
+  cursor: pointer;
+  font-weight: 200;
+  width: 300px;
+  color: black;
+}
+
+.completed {
+  text-decoration: line-through; /* Example styling for completed tasks */
+}
+
+.icon {
+  display: flex;
+  padding: 5px;
+  width: 50px;
+  color: black;
+}
+
+.todo .icon svg {
+  cursor: pointer;
+  margin-right: 5px; /* Reduce the margin for the icons */
+}
+
+.input-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: auto;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
