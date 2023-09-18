@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  background-color:lightgray;
+  background-color: lightgray;
   padding: 30px;
   margin-bottom: 20px;
 }
@@ -27,26 +27,26 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #333;
   font-size: 2rem;
-  color:blue;
+  color: blue;
 }
 
 .navbar a:hover {
   color: #555;
 }
 
-.home{
+.home {
   width: 450px;
-  color:aliceblue;
+  color: aliceblue;
   font-size: 15px;
   font-family: cursive;
 }
+
 .todo-wrapper {
   padding: 40px;
   width: 400px;
   height: auto;
-  background-color:lightcyan;
+  background-color: lightcyan;
   color: white;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@ body {
 
 .todo {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 5rem;
   width: 400px;
   justify-content: space-around;
@@ -72,9 +72,8 @@ body {
   color: black;
 }
 
-.completed{
+.completed {
   text-decoration: line-through; /* Example styling for completed tasks */
-
 }
 
 .icon {
@@ -88,27 +87,28 @@ body {
   cursor: pointer;
   margin-right: 5px; /* Reduce the margin for the icons */
 }
+
 .input-wrapper {
-   margin-top:20px; 
-   display:flex; 
-   align-items:center; 
-   justify-content:center; 
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-   input {
-   padding:10px; 
-   width:300px; 
-   border-radius:5px; 
-   border:none; 
-   outline:none; 
+input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
 
-   button {
-   margin-top:10px; 
-   padding:10px; 
-   width:auto; 
-   background-color:#4CAF50; 
-   color:white; 
-   border:none; 
-   border-radius:5px;  
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: auto;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
